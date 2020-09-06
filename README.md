@@ -22,12 +22,12 @@ https://www.kaggle.com/gcspkmdr/lets-get-rid-of-the-patients-feature-engineering
 2. Explicitly telling the classifier that a certain feature is categorical gave boost to performance
 
 
-*LGBM Classifier
+LGBM Classifier
 
 https://www.kaggle.com/gcspkmdr/lets-get-rid-of-the-patients
 
 
-*XGB Classifier
+XGB Classifier
 
 https://www.kaggle.com/gcspkmdr/lets-get-rid-of-the-patients-xgboost
 
