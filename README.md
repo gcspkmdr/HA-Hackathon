@@ -61,6 +61,8 @@ https://www.kaggle.com/gcspkmdr/a-model-built-on-garbage-deeptables-opnn
 
 7. There was no corelation between the validation loss and validation accuracy. It led to lot of unstabilty which was visibble during cross-validation. This was most likely because of the poor quality of dataset
 
+8. Removing outliers didn't give much boost to performance(Trees anyways aren't much affected by outliers, but maybe with NN they migh had)
+
 Things to explore
 
 RapidAI for feature enginering(Pandas dataframes are too slow. RapidAI uses GPU to speed up the proces)
