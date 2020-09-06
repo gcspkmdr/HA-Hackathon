@@ -10,7 +10,7 @@ Some of the amazing work by the fellow kagglers that i explored:
 
 * https://www.kaggle.com/cdeotte/how-to-choose-cnn-architecture-mnist (used this for CV with nnets)
 
-*https://www.kaggle.com/c/siim-isic-melanoma-classification/discussion/175614
+* https://www.kaggle.com/c/siim-isic-melanoma-classification/discussion/175614
 
 # Feature Engineering
 https://www.kaggle.com/gcspkmdr/lets-get-rid-of-the-patients-feature-engineering
@@ -30,6 +30,7 @@ CatBoost
 https://www.kaggle.com/gcspkmdr/lets-get-rid-of-the-patients-catboost
 
 Various NN architecture via DeepTables (https://github.com/DataCanvasIO/deeptables/blob/master/docs/source/models.md)
+
 https://www.kaggle.com/gcspkmdr/a-model-built-on-garbage-deeptables-pnn
 
 https://www.kaggle.com/gcspkmdr/a-model-built-on-garbage-deeptables-dcn
@@ -61,10 +62,12 @@ RapidAI for feature enginering(Pandas dataframes are too slow. RapidAI uses GPU 
 Dask Dataframes for feature engineering
 
 # Ensembling
+
 https://www.kaggle.com/gcspkmdr/let-s-get-rid-of-the-patients-ensemble
 
 2 X NN are used(DCN and PNN)
 
 # Adversarial Validation
 For sanity check
+
 https://www.kaggle.com/gcspkmdr/adversarial-validation-on-garbage
