@@ -59,7 +59,7 @@ https://www.kaggle.com/gcspkmdr/a-model-built-on-garbage-deeptables-opnn
 
 6. NN architecture with the capabilty of converting tabular categorical features to emeddings performed the best
 
-7. There was corelation between the validation loss and validationn accuracy. This was most likely because of the poor quality of dataset
+7. There was no corelation between the validation loss and validation accuracy. It led to lot of unstabilty which was visibble during cross-validation. This was most likely because of the poor quality of dataset
 
 Things to explore
 
@@ -75,5 +75,9 @@ https://www.kaggle.com/gcspkmdr/let-s-get-rid-of-the-patients-ensemble
 
 # Adversarial Validation
 For sanity check
+
+The general idea is to check the degree of similarity between training and tests in terms of feature distribution: if they are difficult to distinguish, the distribution is probably similar and the usual validation techniques should work. It does not seem to be the case, so we can suspect they are quite different. This intuition can be quantified by combining train and test sets, assigning 0/1 labels (0 - train, 1-test) and evaluating a binary classification task.
+
+For the given dataset the average AUC was 0.52. Train and Test set must come from similar distribution and normal validation techniques should work.
 
 https://www.kaggle.com/gcspkmdr/adversarial-validation-on-garbage
