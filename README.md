@@ -12,9 +12,10 @@ Some of the amazing work by the fellow kagglers that i explored:
 
 *https://www.kaggle.com/c/siim-isic-melanoma-classification/discussion/175614
 
-Feature Engineering
+# Feature Engineering
 https://www.kaggle.com/gcspkmdr/lets-get-rid-of-the-patients-feature-engineering
-Algorithms Used
+
+# Algorithms Used
 1. All variants have used the same features
 
 2. Explicitly telling the classifier that a certain feature is categorical gave boost to performance
@@ -37,7 +38,7 @@ https://www.kaggle.com/gcspkmdr/a-model-built-on-garbage-deeptables
 
 https://www.kaggle.com/gcspkmdr/a-model-built-on-garbage-deeptables-opnn
 
-Findings:
+# Findings
 
 1. LGBM is very slow. GPU usage didn't help much(Also you have to build it every time you open the notebook)
 
@@ -59,11 +60,11 @@ RapidAI for feature enginering(Pandas dataframes are too slow. RapidAI uses GPU 
 
 Dask Dataframes for feature engineering
 
-Ensembling
+# Ensembling
 https://www.kaggle.com/gcspkmdr/let-s-get-rid-of-the-patients-ensemble
 
 2 X NN are used(DCN and PNN)
 
-Adversarial Validation
+# Adversarial Validation
 For sanity check
 https://www.kaggle.com/gcspkmdr/adversarial-validation-on-garbage
