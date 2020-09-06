@@ -16,17 +16,23 @@ Some of the amazing work by the fellow kagglers that i explored:
 https://www.kaggle.com/gcspkmdr/lets-get-rid-of-the-patients-feature-engineering
 
 # Algorithms Used
+
 1. All variants have used the same features
 
 2. Explicitly telling the classifier that a certain feature is categorical gave boost to performance
 
-<ul>LGBM Classifier
+
+*LGBM Classifier
+
 https://www.kaggle.com/gcspkmdr/lets-get-rid-of-the-patients
 
-XGB Classifier
+
+*XGB Classifier
+
 https://www.kaggle.com/gcspkmdr/lets-get-rid-of-the-patients-xgboost
 
 CatBoost
+
 https://www.kaggle.com/gcspkmdr/lets-get-rid-of-the-patients-catboost
 
 Various NN architecture via DeepTables (https://github.com/DataCanvasIO/deeptables/blob/master/docs/source/models.md)
