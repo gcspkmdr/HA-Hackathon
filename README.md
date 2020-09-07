@@ -55,11 +55,11 @@ https://www.kaggle.com/gcspkmdr/a-model-built-on-garbage-deeptables-opnn
 
 4. CatBoost was the best among gradient tree based methods
 
-5. CatBoost was performed well in terms of performace and speed with GPU
+5. CatBoost performed well in terms of both performace as well as speed on GPU
 
 6. NN architecture with the capabilty of converting tabular categorical features to emeddings performed the best
 
-7. There was no corelation between the validation loss and validation accuracy. It led to lot of unstabilty which was visibble during cross-validation. This was most likely because of the poor quality of dataset
+7. There was no corelation between the validation loss and validation accuracy. It led to lot of unstabilty which was visible during cross-validation. This was most likely because of the poor quality of dataset
 
 8. Removing outliers didn't give much boost to performance(Trees anyways aren't much affected by outliers, but maybe with NN they could have improved the performnace somewhat)
 
